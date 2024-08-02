@@ -14,6 +14,8 @@
 		03A75DD42C138FFC007B756C /* PhotoSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A75DD32C138FFC007B756C /* PhotoSaverTests.swift */; };
 		03A75DDE2C138FFC007B756C /* PhotoSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A75DDD2C138FFC007B756C /* PhotoSaverUITests.swift */; };
 		03A75DE02C138FFC007B756C /* PhotoSaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A75DDF2C138FFC007B756C /* PhotoSaverUITestsLaunchTests.swift */; };
+		03A75DEF2C13956C007B756C /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A75DEE2C13956C007B756C /* PhotoItem.swift */; };
+		03A75DF12C140EEC007B756C /* EditImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A75DF02C140EEC007B756C /* EditImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		03A75DD92C138FFC007B756C /* PhotoSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A75DDD2C138FFC007B756C /* PhotoSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSaverUITests.swift; sourceTree = "<group>"; };
 		03A75DDF2C138FFC007B756C /* PhotoSaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03A75DEE2C13956C007B756C /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		03A75DF02C140EEC007B756C /* EditImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				03A75DC22C138FFA007B756C /* PhotoSaverApp.swift */,
+				03A75DF02C140EEC007B756C /* EditImage.swift */,
 				03A75DC42C138FFA007B756C /* ContentView.swift */,
+				03A75DEE2C13956C007B756C /* PhotoItem.swift */,
 				03A75DC62C138FFB007B756C /* Assets.xcassets */,
 				03A75DC82C138FFB007B756C /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				03A75DC52C138FFA007B756C /* ContentView.swift in Sources */,
 				03A75DC32C138FFA007B756C /* PhotoSaverApp.swift in Sources */,
+				03A75DEF2C13956C007B756C /* PhotoItem.swift in Sources */,
+				03A75DF12C140EEC007B756C /* EditImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +427,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoSaver/Preview Content\"";
-				DEVELOPMENT_TEAM = SBPN46G7KR;
+				DEVELOPMENT_TEAM = 55DW573EQF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -435,8 +444,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.interview.app.PhotoSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialapp.picturetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,10 +458,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoSaver/Preview Content\"";
-				DEVELOPMENT_TEAM = SBPN46G7KR;
+				DEVELOPMENT_TEAM = 55DW573EQF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -464,8 +475,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.interview.app.PhotoSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialapp.picturetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
